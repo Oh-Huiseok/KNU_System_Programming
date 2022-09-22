@@ -1,0 +1,110 @@
+Breakpoint 1 at 0x11e9: file ls1.c, line 7.
+The program is not being run.
+Starting program: /home/rlatotquf45/KNU_System_Programming/lab4_s2019116750/ls1 ls1
+
+Breakpoint 1, main (ac=0, av=0x7fffffffdcd0) at ls1.c:7
+7	int main(int ac, char *av[]){
+8	    if( ac==1 )
+11	        while ( -- ac ){
+12	            printf("%s:\n", *++av);
+__printf (format=0x555555556006 "%s:\n") at printf.c:28
+28	printf.c: No such file or directory.
+32	in printf.c
+33	in printf.c
+__vfprintf_internal (s=0x7ffff7fb96a0 <_IO_2_1_stdout_>, 
+    format=0x555555556006 "%s:\n", ap=ap@entry=0x7fffffffdaf0, 
+    mode_flags=mode_flags@entry=0) at vfprintf-internal.c:1289
+1289	vfprintf-internal.c: No such file or directory.
+1320	in vfprintf-internal.c
+1328	in vfprintf-internal.c
+1332	in vfprintf-internal.c
+1343	in vfprintf-internal.c
+1354	in vfprintf-internal.c
+111	printf-parse.h: No such file or directory.
+1369	vfprintf-internal.c: No such file or directory.
+1370	in vfprintf-internal.c
+1373	in vfprintf-internal.c
+948	../libio/libioP.h: No such file or directory.
+1373	vfprintf-internal.c: No such file or directory.
+1377	in vfprintf-internal.c
+1381	in vfprintf-internal.c
+1423	in vfprintf-internal.c
+1688	in vfprintf-internal.c
+1688	in vfprintf-internal.c
+IO_validate_vtable (vtable=0x7ffff7fb54a0 <_IO_file_jumps>)
+    at ../libio/libioP.h:944
+944	../libio/libioP.h: No such file or directory.
+__vfprintf_internal (s=0x7ffff7fb96a0 <_IO_2_1_stdout_>, 
+    format=0x555555556006 "%s:\n", ap=ap@entry=0x7fffffffdaf0, 
+    mode_flags=mode_flags@entry=0) at ../libio/libioP.h:948
+948	in ../libio/libioP.h
+_IO_new_file_xsputn (f=0x7ffff7fb96a0 <_IO_2_1_stdout_>, 
+    data=0x7fffffffdf8f, n=3) at fileops.c:1198
+1198	fileops.c: No such file or directory.
+1204	in fileops.c
+1197	in fileops.c
+_IO_new_file_xsputn (n=3, data=0x7fffffffdf8f, f=<optimized out>)
+    at fileops.c:1211
+1211	in fileops.c
+1228	in fileops.c
+1244	in fileops.c
+IO_validate_vtable (vtable=0x7ffff7fb54a0 <_IO_file_jumps>) at libioP.h:941
+941	libioP.h: No such file or directory.
+944	in libioP.h
+_IO_new_file_xsputn (n=3, data=<optimized out>, f=<optimized out>)
+    at libioP.h:948
+948	in libioP.h
+_IO_new_file_overflow (f=0x7ffff7fb96a0 <_IO_2_1_stdout_>, ch=-1)
+    at fileops.c:732
+732	fileops.c: No such file or directory.
+733	in fileops.c
+740	in fileops.c
+743	in fileops.c
+745	in fileops.c
+__GI__IO_doallocbuf (fp=fp@entry=0x7ffff7fb96a0 <_IO_2_1_stdout_>)
+    at genops.c:343
+343	genops.c: No such file or directory.
+344	in genops.c
+346	in genops.c
+347	in genops.c
+IO_validate_vtable (vtable=0x7ffff7fb54a0 <_IO_file_jumps>) at libioP.h:944
+944	libioP.h: No such file or directory.
+__GI__IO_doallocbuf (fp=fp@entry=0x7ffff7fb96a0 <_IO_2_1_stdout_>)
+    at libioP.h:948
+948	in libioP.h
+__GI__IO_file_doallocate (fp=0x7ffff7fb96a0 <_IO_2_1_stdout_>)
+    at filedoalloc.c:78
+78	filedoalloc.c: No such file or directory.
+84	in filedoalloc.c
+IO_validate_vtable (vtable=0x7ffff7fb54a0 <_IO_file_jumps>) at libioP.h:944
+944	libioP.h: No such file or directory.
+__GI__IO_file_doallocate (fp=0x7ffff7fb96a0 <_IO_2_1_stdout_>)
+    at libioP.h:948
+948	in libioP.h
+__GI__IO_file_stat (fp=0x7ffff7fb96a0 <_IO_2_1_stdout_>, st=0x7fffffffd420)
+    at fileops.c:1147
+1147	fileops.c: No such file or directory.
+1148	in fileops.c
+__GI___fxstat (vers=1, fd=1, buf=0x7fffffffd420)
+    at ../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c:33
+33	../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c: No such file or directory.
+34	in ../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+35	in ../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+__GI__IO_file_doallocate (fp=0x7ffff7fb96a0 <_IO_2_1_stdout_>)
+    at filedoalloc.c:86
+86	filedoalloc.c: No such file or directory.
+91	in filedoalloc.c
+__gnu_dev_major (__dev=34820) at ../include/sys/sysmacros.h:47
+47	../include/sys/sysmacros.h: No such file or directory.
+91	filedoalloc.c: No such file or directory.
+__GI__IO_file_doallocate (fp=0x7ffff7fb96a0 <_IO_2_1_stdout_>)
+    at filedoalloc.c:94
+94	in filedoalloc.c
+97	in filedoalloc.c
+101	in filedoalloc.c
+[Inferior 1 (process 4554) exited normally]
+The program is not being run.
+The program is not being run.
+The program is not being run.
+The program is not being run.
+Quit
